@@ -1,0 +1,21 @@
+{
+  "name": "project-for-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab test/testUtil.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "code": "^5.2.1",
+    "hapi": "^17.6.0",
+    "require": "^2.4.20",
+    "rewire": "^4.0.1",
+    "sinon": "^7.1.1"
+  },
+  "devDependencies": {
+    "lab": "^17.0.2"
+  }
+}
