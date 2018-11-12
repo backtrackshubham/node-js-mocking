@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "lab test/testUtil.js"
+    "test": "lab test/testUtil.js test/testCallbacks.js"
   },
   "author": "",
   "license": "ISC",

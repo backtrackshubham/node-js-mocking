@@ -10,7 +10,11 @@ let fileToStubReWired = rewire('../codebase/fileToStub.js');
 
 const util = require('./../codebase/util.js');
 
-let mockedFileToStub = sinon.stub();
+
+let fileToTest = require('./../codebase/callbacks/fileUsingCallbacks.js');
+let fileToMock = require('./../codebase/callbacks/callbacks.js');
+
+
 
 
 /*
@@ -79,3 +83,8 @@ it('testing BWS Scenario', () => {
   let add = fileToStubReWired.doDouble(45)
   console.log(add);
 })
+
+
+
+
+
